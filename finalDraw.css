@@ -1,0 +1,106 @@
+body {
+    height: 50vh;
+    flex-direction: column;
+    background-color: #658B6F;
+    align-items: center;
+    margin: 0;
+}
+
+#infoBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    height: 32px;
+    /* width: 400px; */
+    border-radius:25px;
+    font-size: 25px;
+    margin: 20px;
+    padding: 10px;
+    background-color: lightgray;
+};
+
+#title {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 30px;
+}
+
+#table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    margin: 15px auto;
+    padding: 10px;   
+}
+#table > div {
+    display: inline-flex;
+}
+
+.information {
+    font-family: 'Chelsea Market', cursive;
+    margin: 20px;
+    padding: 10px;
+    justify-content: center;
+    border: 3px solid lightblue ;
+    background-color: white;
+}
+
+.button {
+    align-items: center;
+    text-transform: uppercase;
+    font-size: auto;
+    font-family: Arial, Helvetica, cursive;
+	color:#666666;
+	background-color:#ffffff;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius:27px;
+    border:4px solid #dcdcdc;
+    justify-content: flex-end;
+    align-items: center;
+    cursor:pointer;
+}
+
+#nav, #footer {
+    display: flex;
+    flex: 1 100%;
+    background-color: #eadcd1;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    border-top: solid 3px black;
+    border-bottom:  solid 5px black;
+  }
+
+  #playerWarValueCard, #compWarValueCard {
+      border: 100px;
+      border-color: royalblue;
+  }
+
+/* #footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: stretch;
+} */
+
+main {
+    align-items: center;
+}
+
+#play {
+    visibility: hidden;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+#compInfo {
+    text-align: right;
+}
+
+#buttonfoot {
+    margin: 20px;
+}
+
