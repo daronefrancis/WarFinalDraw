@@ -47,7 +47,7 @@ If a game result in a tie - no points are awarded - move on to the next hand by 
 
 ## Play Game
 
-https://pages.git.generalassemb.ly/daronefrancis/warFinalDraw/
+https://daronefrancis.github.io/WarFinalDraw/
 
 ## Next Steps
 
